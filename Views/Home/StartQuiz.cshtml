@@ -1,0 +1,62 @@
+﻿@model RandomQuizAnswer.Models.Domain.Question
+@{
+    int index = ViewBag.CurrentIndex;
+    int total = ViewBag.TotalQuestion;
+    Layout = "~/Views/Shared/_LayoutQuiz.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-lg rounded-3 border-0">
+                <div class="card-header bg-primary text-white text-center py-3">
+                    <h4 class="mb-0">Question @(index + 1) of @total</h4>
+                </div>
+                <div class="card-body p-4">
+                    <h6 class="text-muted mb-3">Difficulty: <span class="fw-bold">@Model.Deficulty</span></h6>
+                    <p class="fs-5 mb-4">@Model.Text</p>
+
+                    <ul class="list-group mb-4">
+                        @for (int i = 0; i < @Model.Options.Count; i++)
+                        {
+                            <li class="list-group-item list-group-item-action">
+                                @Model.Options[i]
+                            </li>
+                        }
+                    </ul>
+
+                    <form method="get" asp-action="StartQuiz">
+                        <input type="hidden" name="id" value="@total" />
+                        <input type="hidden" name="index" value="@index" />
+
+                        <div class="mb-3">
+                            <label for="answer" class="form-label fw-semibold">Your Answer</label>
+                            <select name="Answer" id="answer" class="form-select form-select-lg" required>
+                                <option value="" selected disabled>Select your answer</option>
+                                @for (int i = 0; i < Model.Options.Count; i++)
+                                {
+                                    <option value="@Model.Options[i]">@Model.Options[i]</option>
+                                }
+                            </select>
+                        </div>
+
+                        <div class="d-flex justify-content-end">
+                            @if ((index + 1) == total)
+                            {
+                                <button type="submit" class="btn btn-success btn-lg">
+                                    Show Result
+                                </button>
+                            }
+                            else
+                            {
+                                <button type="submit" class="btn btn-primary btn-lg">
+                                    Next Question →
+                                </button>
+                            }
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

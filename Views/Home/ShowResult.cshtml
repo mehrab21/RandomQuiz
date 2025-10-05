@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "ShowResult";
+    Layout = "~/Views/Shared/_LayoutQuiz.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow-lg rounded-3 border-0">
+                <div class="card-body text-center p-5">
+                    <h1 class="display-4 text-success mb-4">🎉 Quiz Completed!</h1>
+
+                    <h2 class="mb-3">
+                        Score: <span class="text-primary fw-bold">@ViewBag.Score</span> / @ViewBag.Total
+                    </h2>
+
+                    Percentage: <span class="text-warning fw-bold">@ViewBag.Percent.ToString("0.##")%</span>
+
+                    <a class="btn btn-lg btn-outline-primary px-4" asp-action="Index" asp-controller="Home">
+                        🔄 Take Another Quiz
+                    </a>
+                </div>
+                <table class="table">
+                    <thead><tr><th>Question</th><th>Your Answer</th><th>Correct Answer</th><th>Status</th></tr></thead>
+                    <tbody>
+                        @foreach (var item in ViewBag.Results)
+                        {
+                            <tr>
+                                <td>@item.Question</td>
+                                <td>@item.UserAnswer</td>
+                                <td>@item.CorrectAnswer</td>
+                                <td>@(item.IsCorrect ? "Correct" : "Wrong")</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

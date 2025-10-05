@@ -1,0 +1,61 @@
+﻿@model RandomQuizAnswer.Models.Domain.Question
+@{
+    ViewData["Title"] = "EditQuestion";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<h1 class="mb-4">Edit Question</h1>
+
+<div class="row">
+    <div class="col-md-8">
+        <form asp-action="EditQuestion" asp-controller="Admin" method="post">
+            <input asp-for="Id" hidden />
+            <div class="mb-3">
+                <label asp-for="Text" class="form-label">Question</label>
+                <input asp-for="Text" class="form-control" placeholder="Enter question text" required />
+                <span asp-validation-for="Text" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Deficulty" class="form-label">Difficulty</label>
+                <select asp-for="Deficulty" class="form-select">
+                    <option value="">--Select difficulty--</option>
+                    <option value="Easy">Easy</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Hard">Hard</option>
+                </select>
+                <span asp-validation-for="Deficulty" class="text-danger"></span>
+            </div>
+
+            <h5 class="mt-4">Options</h5>
+            <div class="mb-3">
+                <label class="form-label">Option 1</label>
+                <input asp-for="Options[0]" name="Options[0]" class="form-control" placeholder="Enter option 1" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Option 2</label>
+                <input asp-for="Options[1]" name="Options[1]" class="form-control" placeholder="Enter option 2" required />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Option 3</label>
+                <input asp-for ="Options[2]" name="Options[2]" class="form-control" placeholder="Enter option 3" />
+            </div>
+            <div class="mb-3">
+                <label class="form-label">Option 4</label>
+                <input asp-for="Options[3]" name="Options[3]" class="form-control" placeholder="Enter option 4" />
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="Answer" class="form-label">Correct Answer</label>
+                <input asp-for="Answer" class="form-control" placeholder="Enter the correct answer" required />
+                <span asp-validation-for="Answer" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">Save Question</button>
+        </form>
+    </div>
+</div>
+
+

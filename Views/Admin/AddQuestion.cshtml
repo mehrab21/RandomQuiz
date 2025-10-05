@@ -1,0 +1,67 @@
+﻿@model RandomQuizAnswer.Models.AddQuestionDto
+@{
+    ViewData["Title"] = "Add Question";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <div class="card shadow-sm rounded-3">
+                <div class="card-header bg-primary text-white text-center py-3">
+                    <h2 class="mb-0">Add New Question</h2>
+                </div>
+                <div class="card-body p-4">
+                    <form asp-action="AddQuestion" asp-controller="Admin" method="post">
+
+                        <div class="mb-3">
+                            <label asp-for="Text" class="form-label fw-bold">Question</label>
+                            <input asp-for="Text" class="form-control form-control-lg" placeholder="Enter question text" required />
+                            <span asp-validation-for="Text" class="text-danger"></span>
+                        </div>
+
+                        <div class="mb-3">
+                            <label asp-for="Deficulty" class="form-label fw-bold">Difficulty</label>
+                            <select asp-for="Deficulty" class="form-select form-select-lg">
+                                <option value="">--Select difficulty--</option>
+                                <option value="Easy">Easy</option>
+                                <option value="Medium">Medium</option>
+                                <option value="Hard">Hard</option>
+                            </select>
+                            <span asp-validation-for="Deficulty" class="text-danger"></span>
+                        </div>
+
+                        <h5 class="mt-4 mb-3">Options</h5>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Option 1</label>
+                            <input name="Options[0]" class="form-control" placeholder="Enter option 1" required />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Option 2</label>
+                            <input name="Options[1]" class="form-control" placeholder="Enter option 2" required />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Option 3</label>
+                            <input name="Options[2]" class="form-control" placeholder="Enter option 3" />
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-semibold">Option 4</label>
+                            <input name="Options[3]" class="form-control" placeholder="Enter option 4" />
+                        </div>
+
+                        <div class="mb-4">
+                            <label asp-for="Answer" class="form-label fw-bold">Correct Answer</label>
+                            <input asp-for="Answer" class="form-control form-control-lg" placeholder="Enter the correct answer" required />
+                            <span asp-validation-for="Answer" class="text-danger"></span>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-success btn-lg">💾 Save Question</button>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
