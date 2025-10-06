@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\views\\home\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:views\\home\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\views\\home\\startquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:views\\home\\startquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\views\\home\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:views\\home\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,33 +40,33 @@
               "RelativeDocumentMoniker": "Views\\Home\\StartQuiz.cshtml",
               "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\StartQuiz.cshtml",
               "RelativeToolTip": "Views\\Home\\StartQuiz.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAoAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T16:56:06.705Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "ShowResult.cshtml",
-              "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\ShowResult.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ShowResult.cshtml",
-              "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\ShowResult.cshtml",
-              "RelativeToolTip": "Views\\Home\\ShowResult.cshtml",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T16:16:34.114Z",
+              "WhenOpened": "2025-10-06T06:42:06.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ShowResult.cshtml",
+              "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\ShowResult.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\ShowResult.cshtml",
+              "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\ShowResult.cshtml",
+              "RelativeToolTip": "Views\\Home\\ShowResult.cshtml",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-06T06:32:29.778Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAgwAkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA6wBoAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-05T16:13:45.125Z",
               "EditorCaption": ""
@@ -81,8 +81,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAEgAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:04:47.206Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-05T16:04:47.206Z"
             }
           ]
         }

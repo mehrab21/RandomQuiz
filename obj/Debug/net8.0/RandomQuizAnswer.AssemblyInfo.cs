@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RandomQuizAnswer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+14904bd677fb90e014eb92bdb8bc2022e164e2b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("RandomQuizAnswer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RandomQuizAnswer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

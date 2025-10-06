@@ -26,6 +26,11 @@ namespace RandomQuizAnswer.Controllers
         }
         public async Task<IActionResult> StartQuiz(string Answer, int id,int index = 0)
         {
+            var result = await _quizserver.TotalQuestionAsync();
+            if (id <= 0 && id > result)
+            {
+                return RedirectToAction("Index");
+            }
             if (HttpContext.Session.GetString("Quiz") == null)
             {
                 var question = await _quizserver.GetRandomQuestionAsync(id);
@@ -60,6 +65,11 @@ namespace RandomQuizAnswer.Controllers
 
         public IActionResult ShowResult()
         {
+            var quizSession = HttpContext.Session.GetString("Quiz");
+            if (string.IsNullOrEmpty(quizSession))
+            {
+                return RedirectToAction("Index");
+            }
             var questionList = JsonSerializer.Deserialize<List<Question>>(HttpContext.Session.GetString("Quiz"));
             var userAnswers = JsonSerializer.Deserialize<Dictionary<int, string>>(HttpContext.Session.GetString("UserAnswers"));
             int score = HttpContext.Session.GetInt32("Score") ?? 0;

@@ -8,17 +8,18 @@
         <div class="col-md-8">
             <div class="card shadow-lg border-0 rounded-3">
                 <div class="card-body p-5 text-center">
+                    <p id="alertshow"></p>
                     <h1 class="mb-4 text-primary fw-bold">🎯 Welcome To Random Quiz Q/A</h1>
                     <p class="lead mb-4">
                         How many questions would you like to solve? <br />
-                        Please select a number between <strong>0</strong> and <strong>@ViewBag.total</strong>.
+                        Please select a number between <strong>1</strong> and <strong>@ViewBag.total</strong>.
                     </p>
 
                     <form asp-action="StartQuiz" method="get" class="mt-4">
                         <div class="mb-3 col-md-6 mx-auto">
                             <input type="number" id="totalQuestions" name="id"
                                    class="form-control form-control-lg text-center"
-                                   placeholder="Enter number of questions" required />
+                                   placeholder="Enter number of questions" min="1" max="@ViewBag.total" required />
                         </div>
                         <button type="submit" class="btn btn-lg btn-success px-5">
                             🚀 Start Quiz
