@@ -7,7 +7,7 @@ using RandomQuizAnswer.Service;
 
 namespace RandomQuizAnswer.Controllers
 {
-    [Authorize]
+    [Authorize(Policy = "RequireAdmin")]
     public class AdminController : Controller
     {
        

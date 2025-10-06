@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\views\\home\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:views\\home\\showresult.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\views\\home\\startquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:views\\home\\startquiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|c:\\user things here\\dotnet_project\\randomquestionanswer\\randomquizanswer\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34F3C869-9FAE-4E6D-9474-8B99C9D4B435}|RandomQuizAnswer.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,53 +31,41 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "StartQuiz.cshtml",
-              "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\StartQuiz.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\StartQuiz.cshtml",
-              "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\StartQuiz.cshtml",
-              "RelativeToolTip": "Views\\Home\\StartQuiz.cshtml",
-              "ViewState": "AgIAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-06T06:42:06.314Z",
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:31:28.877Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "ShowResult.cshtml",
-              "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\ShowResult.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ShowResult.cshtml",
-              "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Views\\Home\\ShowResult.cshtml",
-              "RelativeToolTip": "Views\\Home\\ShowResult.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAACQAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-06T06:32:29.778Z",
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AgIAAGwAAAAAAAAAAAAAAHcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T08:24:37.477Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAAAAAEEAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:13:45.125Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\USER THINGS HERE\\DOTNET_PROJECT\\RandomQuestionAnswer\\RandomQuizAnswer\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEgAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEwAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T16:04:47.206Z"
+              "WhenOpened": "2025-10-06T07:59:44.969Z",
+              "EditorCaption": ""
             }
           ]
         }
